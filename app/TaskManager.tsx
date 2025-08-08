@@ -12,11 +12,9 @@ export default function TaskManager() {
   return (
     <SafeAreaView style={styles.container}>
       <TabView allTasks={tasks} />
-      <View style={styles.button}>
         <Button
           onPress={() => router.push('/AddTask')}
           title="Add New Task" />
-      </View>
     </SafeAreaView>
   );
 }
@@ -25,8 +23,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 16,
+    margin:16,
   },
-  button: {
-    paddingHorizontal: 16
-  }
 });
