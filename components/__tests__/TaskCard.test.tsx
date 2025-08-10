@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, fireEvent } from '@testing-library/react-native';
-import TaskCard from './TaskCard';
+import TaskCard from '../TaskCard';
 import { Priority } from '@/types/taskTypes';
 
 const mockDispatch = jest.fn();

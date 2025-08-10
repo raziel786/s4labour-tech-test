@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, fireEvent, waitFor } from '@testing-library/react-native';
-import AddTask from './AddTask';
+import AddTask from '../AddTask';
 import { StyleSheet } from 'react-native';
 
 jest.mock('expo-router', () => ({

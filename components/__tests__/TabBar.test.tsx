@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, fireEvent } from '@testing-library/react-native';
-import TabBar from './TabBar';
+import TabBar from '../TabBar';
 
 describe('Given TabBar is rendered with tabs and an active tab', () => {
   const tabs = ['Home', 'Profile', 'Settings'];
