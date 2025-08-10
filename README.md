@@ -4,7 +4,7 @@
 
 - [x] **Task Management**  
   - [x] Users can add new tasks  
-  - [x] Mark tasks as complete/incomplete  
+  - [x] Mark tasks as complete
   - [x] Delete tasks  
 
 - [x] **Task Organisation**  
