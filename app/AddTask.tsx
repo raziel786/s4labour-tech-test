@@ -91,6 +91,7 @@ export default function AddTask() {
           onTabPress={(priority) => setTask((prev) => ({ ...prev, priority }))}
         />
         <Button
+        testID='add-task-button'
           disabled={
             task.title.trim().length === 0 ||
             task.description.trim().length === 0 ||
