@@ -11,7 +11,7 @@ type CurvedHeaderProps = {
   showBackButton?: boolean;
 };
 
-export default function CurvedHeader({
+export default function Header({
   title = 'Title',
   showBackButton = true,
 }: CurvedHeaderProps) {
@@ -42,7 +42,7 @@ export default function CurvedHeader({
 
       <View style={styles.content}>
         {showBackButton && (
-          <TouchableOpacity onPress={() => router.back()} style={styles.backButton}>
+          <TouchableOpacity testID="back-button" onPress={() => router.back()} style={styles.backButton}>
             <Ionicons name="caret-back-circle-sharp" size={32} color="white" />
           </TouchableOpacity>
         )}
