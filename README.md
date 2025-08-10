@@ -42,7 +42,9 @@ Users should also be able to edit tasks in the early stages – for example, upd
 
 A confirmation/deletion modal should be shown to prevent accidental deletions or completions. In addition, when an action like deletion or completion does occur, a snackbar should appear to confirm it (e.g. “Task deleted” or “Task completed”), with an Undo button to reverse the action while the snackbar is still visible. Also prevent creation of empty or duplicate tasks, and provide clear inline error messages.
 
-##  Screenshot
+##  Screenshots/GIFs
+
+![Aug-10-2025 09-42-52](https://github.com/user-attachments/assets/9e673a83-6d9d-44ea-84de-e8a89c028d57)
 
 <img width="733" height="753" alt="Screenshot 2025-08-08 at 23 13 10" src="https://github.com/user-attachments/assets/07ad18f5-4cc4-4ef6-9777-26e852484269" />
 
