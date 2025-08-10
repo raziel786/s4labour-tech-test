@@ -72,5 +72,10 @@ Either have the IOS or Android emulator before hand or download the Expo app ins
 ----
 
 ### Run unit tests
-```npm run test```
+
+In the terminal, run ```npm run test```
+
+<img width="409" height="252" alt="Screenshot 2025-08-10 at 23 36 05" src="https://github.com/user-attachments/assets/e23dbb21-316e-4d19-88fd-bd01ceb69c79" />
+
+
 ----
