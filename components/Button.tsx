@@ -5,11 +5,13 @@ type ButtonProps = {
   title: string;
   onPress: (event: GestureResponderEvent) => void;
   disabled?: boolean;
+  testID?: string;
 };
 
-export default function Button({ title, onPress, disabled = false }: ButtonProps) {
+export default function Button({ title, onPress, disabled = false, testID }: ButtonProps) {
   return (
     <TouchableOpacity
+    testID={testID}
       style={[styles.button, disabled && styles.disabledButton]}
       onPress={onPress}
       activeOpacity={disabled ? 1 : 0.7}
