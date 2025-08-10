@@ -80,12 +80,17 @@ export default function TaskCard({
 
   return (
     <View style={styles.swipeWrapper}>
-      <TouchableOpacity onPress={onDelete} style={styles.rightAction}>
+      <TouchableOpacity  
+        testID={`task-card-swipable-delete-button`}
+          onPress={onDelete} 
+          style={styles.rightAction}
+        >
         <View style={styles.deleteButton}>
           <Text style={styles.actionText}>Delete</Text>
         </View>
       </TouchableOpacity>
       <TouchableOpacity
+        testID={`task-card-swipable-complete-button`}
         onPress={onComplete}
         style={[styles.leftAction, { opacity: active ? 1 : 0.3 }]}
         disabled={!active}
